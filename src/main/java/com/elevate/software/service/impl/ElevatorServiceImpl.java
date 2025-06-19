@@ -18,8 +18,6 @@ import com.elevate.software.utils.ElevadorUtils;
 @Service
 public class ElevatorServiceImpl implements IElevadorService {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(ElevatorServiceImpl.class);
-
 	private final List<RegistroElevador> registroElevador;
 
 	public ElevatorServiceImpl(DadosService dadosService) {
